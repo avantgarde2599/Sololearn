@@ -13,4 +13,5 @@ int main() {
 	free_places = bus_max - last_bus;
 	cout << free_places << " free seats will remain." << endl;
 	return 0;
+	system("PAUSE");
 }
