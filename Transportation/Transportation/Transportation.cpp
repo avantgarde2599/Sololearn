@@ -9,7 +9,7 @@ int main() {
 	int free_places;
 	cout << "Enter the number of passengers: ";
 	cin >> passengers;
-	flights = passengers / bus_max;
+	flights = passengers / bus_max + 1;
 	cout << "The bus will make " << flights << " flights." << endl;
 	last_bus = passengers % bus_max;
 	cout << "Last bus will take " << last_bus << " passengers." << endl;
